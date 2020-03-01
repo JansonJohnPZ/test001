@@ -1,3 +1,6 @@
-str = input()
+str = '草泥吗'
 print(str)
-print(str.find('/')) 
+str = str.encode('utf-8')
+print(str)
+str = str.decode('utf-8')
+print(str)
