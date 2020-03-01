@@ -1,3 +1,3 @@
 str = input()
 print(str)
-print(str.find('/'))
+print(str.find('/')) 
