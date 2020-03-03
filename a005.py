@@ -1,4 +1,8 @@
 import numpy as np
 
-a = np.array([1, 2, 3])
+a = np.ones((3, 4))
+b = np.zeros((3, 2))
 print(a)
+print(b)
+c = np.vsplit(a, [1])
+print(c)
